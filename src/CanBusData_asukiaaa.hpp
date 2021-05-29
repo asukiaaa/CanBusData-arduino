@@ -17,7 +17,7 @@ class Frame {
   // StateRead stateRead = StateRead::Undefined;
   bool rtr = false;  // false -> data frame, true -> remote frame
   uint8_t idx = 0;   // This field is used by the driver
-  uint8_t len = 0;
+  uint8_t len = 8;
   union {
     uint64_t data64;     // Caution: subject to endianness
     uint32_t data32[2];  // Caution: subject to endianness
