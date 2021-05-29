@@ -1,5 +1,5 @@
-#ifndef _CAN_BUS_DATA_ASUKIAAA_H_
-#define _CAN_BUS_DATA_ASUKIAAA_H_
+#ifndef _CAN_BUS_DATA_ASUKIAAA_HPP_
+#define _CAN_BUS_DATA_ASUKIAAA_HPP_
 
 #include <Arduino.h>
 namespace CanBusData_asukiaaa {
