@@ -1,5 +1,4 @@
-#ifndef _CAN_BUS_DATA_ASUKIAAA_H_
-#define _CAN_BUS_DATA_ASUKIAAA_H_
+#pragma once
 
 #include <Arduino.h>
 namespace CanBusData_asukiaaa {
@@ -28,5 +27,3 @@ class Frame {
 };
 
 };  // namespace CanBusData_asukiaaa
-
-#endif
