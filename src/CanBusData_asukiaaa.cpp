@@ -2,7 +2,7 @@
 
 namespace CanBusData_asukiaaa {
 
-String Frame::toString() {
+String Frame::toString() const {
   String str = "bytes:";
   for (int i = 0; i < len; ++i) {
     str += " " + String(data[i]);
@@ -11,6 +11,6 @@ String Frame::toString() {
          ", ext: " + yesNoOfBool(ext) + ", " + str;
 };
 
-String Frame::yesNoOfBool(bool value) { return value ? "yes" : "no"; }
+String Frame::yesNoOfBool(bool value) const { return value ? "yes" : "no"; }
 
 };  // namespace CanBusData_asukiaaa

@@ -24,10 +24,10 @@ class Frame {
     uint8_t data[8] = {0, 0, 0, 0, 0, 0, 0, 0};
   };
 
-  String toString();
+  String toString() const;
 
  private:
-  String yesNoOfBool(bool value);
+  String yesNoOfBool(bool value) const;
 };
 
 };  // namespace CanBusData_asukiaaa
