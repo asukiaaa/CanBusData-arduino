@@ -1,5 +1,4 @@
-#ifndef _CAN_BUS_DATA_ASUKIAAA_HPP_
-#define _CAN_BUS_DATA_ASUKIAAA_HPP_
+#pragma once
 
 #include <Arduino.h>
 namespace CanBusData_asukiaaa {
@@ -25,8 +24,11 @@ class Frame {
     float dataFloat[2];  // Caution: subject to endianness
     uint8_t data[8] = {0, 0, 0, 0, 0, 0, 0, 0};
   };
+
+  String toString();
+
+ private:
+  String yesNoOfBool(bool value);
 };
 
 };  // namespace CanBusData_asukiaaa
-
-#endif
