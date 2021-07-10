@@ -3,17 +3,10 @@
 #include <Arduino.h>
 namespace CanBusData_asukiaaa {
 
-// enum class StateRead {
-//   Undefined = -1,
-//   Succeeded = 0,
-//   Failed,
-// };
-
 class Frame {
  public:
   uint32_t id = 0;
   bool ext = false;
-  // StateRead stateRead = StateRead::Undefined;
   bool rtr = false;  // false -> data frame, true -> remote frame
   uint8_t len = 8;
   union {
