@@ -25,9 +25,6 @@ class Frame {
   };
 
   String toString() const;
-
- private:
-  String yesNoOfBool(bool value) const;
 };
 
 };  // namespace CanBusData_asukiaaa
