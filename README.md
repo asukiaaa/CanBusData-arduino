@@ -3,7 +3,7 @@
 A library for arduino to define data types for Can bus.
 To use Can bus, use the following library.
 
-[CanBusMCP_asukiaaa](https://github.com/asukiaaa/CanBusMCP-arduino)
+[CanBusMCP2515_asukiaaa](https://github.com/asukiaaa/CanBusMCP2515-arduino)
 
 # License
 
